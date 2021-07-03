@@ -1,5 +1,5 @@
 
-# Lexical-AT 
+# CGM
 This is the codes of our IJCAI-21 paper: Long-term, Short-term and Sudden Event: Trading Volume Movement Prediction with Graph-based Multi-view Modeling.
 ![The architecture of our CGM](https://github.com/lancopku/CGM/blob/master/model.png)
 # structure of source code 
