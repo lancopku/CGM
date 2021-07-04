@@ -2,7 +2,7 @@
 # CGM
 This is the code of our IJCAI-21 paper: Long-term, Short-term and Sudden Event: Trading Volume Movement Prediction with Graph-based Multi-view Modeling.
 ![The architecture of our CGM](https://github.com/lancopku/CGM/blob/master/model.png)
-# structure of source code 
+# Structure of the source code 
 ```
 src_classification/regression 
     -graph 
@@ -25,13 +25,12 @@ src_classification/regression
     -train.py (main process)
     -utils.py 
 ```
-# shell scripts for training 
-
-## for volume movement classification
+# Shell scripts for training CGM
+## for volume movement classification task
 ```
 CUDA_VISIBLE_DEVICES=0 python3 src_classification/train.py -config config_classification.yaml -verbose -log graph_dcca_classification
 ```
-## for volume movement Regression 
+## for volume movement regression task
 ```
 CUDA_VISIBLE_DEVICES=0 python3 src_regression/train.py -config config_regression.yaml -verbose -log graph_dcca_regression
 ```
