@@ -1,7 +1,7 @@
 
 # CGM
 This is the code of our IJCAI-21 paper: Long-term, Short-term and Sudden Event: Trading Volume Movement Prediction with Graph-based Multi-view Modeling.
-![The architecture of our CGM](https://github.com/lancopku/CGM/blob/master/model.png)
+![The architecture of our CGM](https://github.com/lancopku/CGM/blob/master/model.png). The original news data is shared at https://pan.baidu.com/s/1zTHKy54DOu0p9_fa4s-JVg The extraction code is：elj8. 
 # Structure of the source code 
 ```
 src_classification/regression 
